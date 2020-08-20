@@ -14,3 +14,32 @@ The dataset consists of `12K` news comments of five sentiment categories. For th
 **Dataset Summary-** includes total number of words and unique words in each class.
 
 ![data_dist](/images/data_summary.PNG)
+
+## Model Evaluation
+Differnet Machine learning classifers are taken to train and evaluate the system efficacy. The experiment is done for N-gram features and measuers the performance using various evaluation metrics.
+
+**`Performance on Unigram feature:`**
+
+![unigram](/images/unigram_performance.PNG)
+
+**`Performance on Bigram feature:`**
+
+![bigram](/images/bigram_performance.PNG)
+
+**`Performance on Tri-gram feature:`**
+
+![trigram](/images/trigram_performance.PNG)
+
+**From the above analysis, it is observed that for trigram feature `Multinomial Naive Bayes` shows good performance in all evaluation metrices.**
+
+**`Accuracy and F1-score Plot:`**
+
+![plot](/images/comparison_plot.PNG)
+
+
+## References:
+1. [Dataset Link](https://data.mendeley.com/datasets/n53xt69gnf/3)
+
+## Resources Used
+- **Python Version:** 3.7
+- **Packages:** Scikit Learn, Numpy, Pandas, Matplotlib, Seaborn 
